@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#description {
+    background-color: #cecece; /* Light grey background */
+    padding: 20px; /* Adds space inside the box */
+    margin-top: 20px; /* Adds space above the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    line-height: 1.6; /* Improves readability */
+    font-family: Arial, sans-serif; /* Modern font style */
+    text-align: justify;
+}
+
+#description p {
+    color: #333; /* Dark grey text color */
+}
+
+#description a {
+    color: #007bff; /* Bright blue link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+#description a:hover {
+    text-decoration: underline; /* Underline on hover for better user experience */
+    color:#0000ff;
+}
+
+#description b {
+    color: #000000; /* Dark blue color for bold text */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 1px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    margin: 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #3f3f3f;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.button:hover {
+    background: #e8491d;
+}

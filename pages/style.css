@@ -1,0 +1,89 @@
+html, body {
+    font-size: min(16px, 2.4vw);
+    font-family: "Arial", serif;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    padding-left: 10%;
+  }
+
+body {
+    line-height:1;
+}
+
+#instructions {
+  border: none;
+  background-color: rgb(248, 248, 248);
+  padding: 14px 0px;
+  font-size: 20px;
+  color:  rgb(28, 28, 28);
+  display: inline-block;
+  text-align: justify;
+}
+
+#prompt {
+  border: none;
+  background-color: rgb(248, 248, 248);
+  padding: 14px 2px;
+  font-size: 19px;
+  color:  black;
+  display: inline-block;
+  text-align: justify;
+  user-select: none;
+}
+
+#topic {
+  border: none;
+  background-color: rgb(248, 248, 248);
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  text-align: justify;
+  user-select: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.float-left {
+    width: 80%;
+    float: left;
+    }
+a {
+    color: rgb(255, 255, 255);
+    }
+
+#button {
+  border: none;
+  background-color: rgb(0, 0, 250);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+#button a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+#button:hover {
+  background-color: rgb(0, 0, 200);
+  transform: scale(1.05);
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../style.css">
+
+<body>
+  <p class="float-left" id='instructions'><b>TASK 2: TYPE YOUR ANSWER IN THE TEXTBOX PROVIDED STRAIGHT AWAY IN ENGLISH.
+      DO NOT use another text editor, and DO NOT copy/paste text from other sources. Genuinely attempt to answer the
+      question ON YOUR OWN and to the best of your ability. DO NOT take breaks (unless you need to think), and DO NOT
+      use any grammar/spelling checkers or any other English language tools. DO NOT open another tab on your browser. DO
+      NOT try to look for answers on the web, and DO NOT use any chatbots to generate the answer for you. If you do, we
+      will be able to know, and your submission will be REJECTED. The validity of your submission does not depend on the
+      quality of your English. Your answer must be MORE than 150 words. You may use the provided button to count the
+      number of words that you have typed at any point. When you finish typing, use the download button to download your
+      data. Then, return to the survey page, upload the file, and click next. DO NOT rename the file. Make sure you
+      UPLOAD THE CORRECT FILE. If you fail to follow these instructions, your data will not be used, and you will not
+      get paid.</b></p>
+
+  <br style="clear:both" />
+
+  <p class="float-left" id='topic'></p>
+  <p class="float-left" id='prompt'></p>
+  <br style="clear:both" />
+
+  <textarea class="float-left" rows=20 id="lname" name="lname" spellcheck="false"
+    style="font-size: 19px; font-family: sans-serif; border:3px outset #0000FF"> </textarea>
+
+  <br style="clear:both" />
+
+  <button onclick="countWords()"> Count Words</button>
+
+  <p> Word Count: <span id="show">0</span></p>
+
+  <a id="downloadAnchorElem">
+    <div id="button">
+      <span>Download</span>
+    </div>
+  </a>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
