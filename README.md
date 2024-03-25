@@ -6,4 +6,4 @@ You may access the data collection page by clicking [here](https://cambridgealta
 
 The dataset we collected is described in our LREC-COLING paper and is named the KUPA-KEYS (King's College London & Université Paris Cité Keys). It may be obtained from our [Hugging Face dataset page](https://huggingface.co/datasets/ALTACambridge/KUPA-KEYS) under a Creative Commons Attribution Non-Commercial Share-Alike 4.0 International licence.
 
-Georgios Velentzas, Andrew Caines, Rita Borgo, Erin Pacquetet, Clive Hamilton, Taylor Arnold, Diane Nicholls, Paula Buttery, Thomas Gaillat, Nicolas Ballier and Helen Yannakoudakis
+_Georgios Velentzas, Andrew Caines, Rita Borgo, Erin Pacquetet, Clive Hamilton, Taylor Arnold, Diane Nicholls, Paula Buttery, Thomas Gaillat, Nicolas Ballier and Helen Yannakoudakis_
